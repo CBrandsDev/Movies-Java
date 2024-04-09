@@ -10,16 +10,16 @@ public class App {
         Movies m2 = new Movies("Cachoroo", 2024, c2, a2);
         Movies m3 = new Movies("Gloob da luta", 2001, c3, a3);
 
-        m1.oCuDeMarco();
-        m2.oCuDeMarco();
-        m3.oCuDeMarco();
+        // m1.oCuDeMarco();
+        // m2.oCuDeMarco();
+        // m3.oCuDeMarco();
 
-        // Repository d1 = new Repository();
+        Repository d1 = new Repository();
 
-        // d1.insert(m1);
-        // d1.insert(m2);
-        // d1.insert(m3);
-        // // d1.remove(m2);
-        // d1.oCuDeLacerda();
+        d1.insert(m1);
+        d1.insert(m2);
+        d1.insert(m3);
+        d1.remove(m2);
+        d1.oCuDeLacerda();
     }
 }
