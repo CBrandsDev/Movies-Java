@@ -10,9 +10,9 @@ public class App {
         Movies m2 = new Movies("Cachoroo", 2024, c2, a2);
         Movies m3 = new Movies("Gloob da luta", 2001, c3, a3);
 
-        // m1.oCuDeMarco();
-        // m2.oCuDeMarco();
-        // m3.oCuDeMarco();
+        // m1.rReport();
+        // m2.rReport();
+        // m3.rReport();
 
         Repository d1 = new Repository();
 
