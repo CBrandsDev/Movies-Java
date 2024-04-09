@@ -11,10 +11,10 @@ public class Movies {
         awards = a;
     }
 
-    public void oCuDeMarco() {
+    public void mReport() {
         System.out.println("Title " + title + ", year " + year + ", Cast ");
-        cast.oCuDeRobert();
-        awards.oCuDeEliel();
+        cast.cReport();
+        awards.aReport();
         System.out.println(" ");
 
     }

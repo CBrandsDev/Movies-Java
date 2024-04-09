@@ -7,7 +7,7 @@ public class Awards {
         goldenGlobe = g;
     }
 
-    public void oCuDeEliel() {
+    public void aReport() {
         System.out.println(", Awards ");
         System.out.println("Oscars: " + oscar + ", Golden Globes: " + goldenGlobe);
     }

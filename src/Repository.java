@@ -23,7 +23,7 @@ public class Repository {
 
     public void oCuDeLacerda() {
         for(int i = 0; i < index; i++) {
-            DB[i].oCuDeMarco();
+            DB[i].mReport();
         }
     }
 

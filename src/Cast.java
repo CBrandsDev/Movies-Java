@@ -7,7 +7,7 @@ public class Cast {
         directors = d;
     }
 
-    public void oCuDeRobert() {
+    public void cReport() {
         System.out.println(actors + ", " + directors);
     }
 }
