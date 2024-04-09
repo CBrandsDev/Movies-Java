@@ -20,6 +20,6 @@ public class App {
         d1.insert(m2);
         d1.insert(m3);
         d1.remove(m2);
-        d1.oCuDeLacerda();
+        d1.rReport();
     }
 }

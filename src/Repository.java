@@ -11,9 +11,9 @@ public class Repository {
         DB[index] = m;
         index++;
     }
-    public void remove(Movies s) {
+    public void remove(Movies m) {
         for(int i = 0; i < index; i++) {
-            if(DB[i] == s) {
+            if(DB[i] == m) {
                DB[i] = DB[index - 1];
                DB[index - 1] = null;
                index--; 
@@ -21,7 +21,7 @@ public class Repository {
         }
     }
 
-    public void oCuDeLacerda() {
+    public void rReport() {
         for(int i = 0; i < index; i++) {
             DB[i].mReport();
         }
